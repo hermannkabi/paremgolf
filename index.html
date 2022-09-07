@@ -21,9 +21,13 @@
 
         <input class="textfield" type="text" name="name" placeholder="Sinu nimi" required>
         <input class="textfield" type="email" name="email" placeholder="E-posti aadress" required>
+        
         <textarea style="height:200px" class="textfield" name="message" placeholder="Kirjelda oma probleemi" required></textarea>
         <input class="filepicker" type="file" name="attachment" accept="image/png, image/jpeg" placeholder="Lae üles pilt">
-
+<select name="platform" id="platform-select" required>
+            <option value="android">Android</option>
+            <option value="ios">iOS</option>
+        </select>
         <input type="hidden" name="_autoresponse" value="Aitäh, et kirjutasid. Võtan Sinuga ühendust nii kiiresti, kui võimalik.">
         <input type="hidden" name="_next" value="https://hermannkabi.com/paremgolf/thanks.html">
 
@@ -34,5 +38,7 @@
    <br><br><br><br>
 
 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="index.js"></script>
 </body>
 </html>
