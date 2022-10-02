@@ -14,7 +14,10 @@ if(platform != null){
         $("#app-version").val(version)
     }
     if(theme != null && theme == "dark"){
-        $(body).css("background-color", "#282828");
-        $("#title").css("color", "white");
+        $(document).ready(function() {
+            console.log("Ready");
+            $("body").css("background-color", "#282828");
+            $("#title").css("color", "white");
+        });
     }
 }
