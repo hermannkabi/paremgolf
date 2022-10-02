@@ -6,6 +6,8 @@ var platform = urlParams.get("platform");
 var version = urlParams.get("version");
 var theme = urlParams.get("theme");
 
+console.log(theme);
+
 if(platform != null){
     if(platform == "android" || platform == "ios"){
         $("#platform-select").val(platform);
