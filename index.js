@@ -20,9 +20,10 @@ if(platform != null){
             console.log("Ready");
             $("body").css("background-color", "#282828");
             $("#title").css("color", "white");
-            $(".textfield").css("background-color", "#182747");
+            $(".textfield").css("background-color", "#191919");
             $(".textfield").css("color", "white");
-
+            $(".filepicker").css("color", "white");
+            $("select").css("background-color", "#191919");
 
         });
     }
