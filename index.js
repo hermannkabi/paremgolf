@@ -20,6 +20,10 @@ if(platform != null){
             console.log("Ready");
             $("body").css("background-color", "#282828");
             $("#title").css("color", "white");
+            $(".textfield").css("background-color", "#182747");
+            $(".textfield").css("color", "white");
+
+
         });
     }
 }
