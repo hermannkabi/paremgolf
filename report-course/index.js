@@ -11,6 +11,8 @@ var holeNr = urlParams.get("hole");
 var nameParam = urlParams.get("name");
 var emailParam = urlParams.get("email");
 
+var course = urlParams.get("course");
+
 
 if(nameParam != null){
     $("#name-input").val(nameParam);
@@ -44,4 +46,8 @@ if(theme != null && theme == "dark"){
         $("select").css("color", "white");
 
     });
+}
+
+if(course != null){
+    $("#course-name").val(course);
 }
