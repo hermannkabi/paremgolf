@@ -24,6 +24,7 @@ if(platform != null){
             $(".textfield").css("color", "white");
             $(".filepicker").css("color", "white");
             $("select").css("background-color", "#191919");
+            $("select").css("color", "white");
 
         });
     }
