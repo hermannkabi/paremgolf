@@ -1,1 +1,43 @@
-Vabandame, antud võimalus on arengujärgus!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="master.css">
+    <title>Teata veast rajal | ParemGolf</title>
+    <link rel="icon" type="image/x-icon" href="icon.png">
+
+</head>
+<body>
+
+
+    <br><br><br><br>
+    <img src="icon.png" alt="" height="150px" style="border-radius: 15px;">
+    <h1 id="title">ParemGolf</h1>
+    <form action="https://formsubmit.co/365da52d9d42c9ec402a974de10e2d52" method="POST" enctype="multipart/form-data">
+        <input type="hidden" name="_subject" value="ParemGolf abipäring">
+        <input id="app-version" type="hidden" name="version" >
+        <input id="name-input" class="textfield" type="text" name="name" placeholder="Sinu nimi" required>
+        <input id="email-input" class="textfield" type="email" name="email" placeholder="E-posti aadress" required>
+        <input class="textfield" name="hole-number" placeholder="Raja number" id="hole-nr">
+        <textarea style="height:200px" class="textfield" name="message" placeholder="Kirjelda viga, mis sellel rajal leidsid" required></textarea>
+        <input class="filepicker" type="file" name="attachment" accept="image/png, image/jpeg" placeholder="Lae üles pilt">
+<select name="platform" id="platform-select" required>
+            <option value="android">Android</option>
+            <option value="ios">iOS</option>
+        </select>
+        <input type="hidden" name="_autoresponse" value="Aitäh, et kirjutasid. Võtan Sinuga ühendust nii kiiresti, kui võimalik.">
+        <input type="hidden" name="_next" value="https://hermannkabi.com/paremgolf/thanks.html">
+
+
+
+        <button type="submit">Saada</button>
+   </form>
+   <br><br><br><br>
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="index.js"></script>
+</body>
+</html>

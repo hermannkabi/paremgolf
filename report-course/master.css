@@ -1,0 +1,74 @@
+@media only screen and (max-width: 600px) {
+    .textfield{
+        width: 80% !important;
+        max-width: 80% !important;
+    }
+
+    button{
+        width: 80% !important;
+    }
+  }
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.textfield{
+    margin: 20px auto;
+    display: block;
+    height: 40px;
+    border-radius: 0;
+    border: 0 solid transparent;
+    background-color: #FDEEDC;
+    color: black;
+    width: 40%;
+    max-width: 40%;
+    padding: 8px;
+    font-family: monospace;
+
+}
+
+.filepicker{
+    margin: 20px auto;
+    font-family: monospace;
+}
+
+button{
+    width: 30%;
+    background-color: #7FBCD2;
+    font-family: monospace;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 8px;
+    height: 50px;
+    color: white;
+}
+
+button:hover{
+    opacity: 90%;
+}
+
+button:active{
+    background-color: #54BAB9;
+}
+
+h1{
+    font-family: monospace;
+}
+
+select{
+    background-color: #FDEEDC;
+    border: none;
+    padding: 15px 30px;
+    margin-left: 0;
+    border-radius: 8px;
+}
+
+label{
+    font-family: monospace;
+}

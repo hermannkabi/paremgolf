@@ -6,6 +6,8 @@ var platform = urlParams.get("platform");
 var version = urlParams.get("version");
 var theme = urlParams.get("theme");
 
+var holeNr = urlParams.get("hole");
+
 var nameParam = urlParams.get("name");
 var emailParam = urlParams.get("email");
 
@@ -26,7 +28,10 @@ if(platform != null){
 if(version != null){
     $("#app-version").val(version)
 }
+if(holeNr != null){
+    $("#hole-nr").val(holeNr)
 
+}
 if(theme != null && theme == "dark"){
     $(document).ready(function() {
         console.log("Ready");
