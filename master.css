@@ -66,6 +66,7 @@ h1{
 }
 
 select{
+    -webkit-appearance: none;
     display: block;
     border: none;
     padding: 15px 30px;
