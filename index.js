@@ -30,12 +30,12 @@ if(version != null){
 if(theme != null && theme == "dark"){
     $(document).ready(function() {
         console.log("Ready");
-        $("body").css("background-color", "#282828");
+        $("body").css("background-color", "#1b2430");
         $("#title").css("color", "white");
-        $(".textfield").css("background-color", "#191919");
+        $(".textfield").css("background-color", "#1b2430");
         $(".textfield").css("color", "white");
         $(".filepicker").css("color", "white");
-        $("select").css("background-color", "#191919");
+        $("select").css("background-color", "#1b2430");
         $("select").css("color", "white");
 
     });

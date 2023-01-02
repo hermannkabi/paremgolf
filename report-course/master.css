@@ -21,13 +21,13 @@ body {
     display: block;
     height: 40px;
     border-radius: 0;
-    border: 0 solid transparent;
-    background-color: #FDEEDC;
-    color: black;
+    border: 1px solid #a5c9ca;
+    background-color: #1b2430;
+    color: #a5c9ca;
     width: 40%;
     max-width: 40%;
     padding: 8px;
-    font-family: monospace;
+    font-family: cursive;
 
 }
 
