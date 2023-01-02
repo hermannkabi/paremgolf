@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+
 @media only screen and (max-width: 600px) {
     .textfield{
         width: 80% !important;
@@ -20,25 +22,34 @@ body {
     margin: 20px auto;
     display: block;
     height: 40px;
-    border-radius: 0;
-    border: 1px solid #a5c9ca;
-    background-color: #1b2430;
+    border-radius: 12px;
+    border: 2px solid #a5c9ca;
+    background-color: white;
     color: #a5c9ca;
     width: 40%;
     max-width: 40%;
     padding: 8px;
-    font-family: cursive;
+    font-family: "Reem Kufi";
 
 }
 
+.textfield:focus{
+    outline: none;
+    border: 4px solid #a5c9ca;
+}
+
+
 .filepicker{
     margin: 20px auto;
-    font-family: monospace;
+    font-family: "Reem Kufi";
+    display: block;
+    margin: auto;
+    text-align: end;
 }
 
 button{
     width: 30%;
-    background-color: #7FBCD2;
+    background-color: #a5c9ca;
     font-family: monospace;
     font-size: 20px;
     display: block;
@@ -49,24 +60,19 @@ button{
     color: white;
 }
 
-button:hover{
-    opacity: 90%;
-}
-
-button:active{
-    background-color: #54BAB9;
-}
 
 h1{
     font-family: monospace;
 }
 
 select{
-    background-color: #FDEEDC;
+    background-color: white;
     border: none;
+    border-bottom: 3px solid #a5c9ca;
     padding: 15px 30px;
     margin-left: 0;
-    border-radius: 8px;
+    border-radius: 0px;
+    margin: auto;
 }
 
 label{
